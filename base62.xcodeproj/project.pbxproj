@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0D8B46ED1DAF954500DD16A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8B46EC1DAF954500DD16A9 /* main.m */; };
+		0D8B46F51DAF956E00DD16A9 /* NSString+Base62.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8B46F41DAF956E00DD16A9 /* NSString+Base62.m */; };
+		0D8B46F81DAF98A000DD16A9 /* CommandLineParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8B46F71DAF98A000DD16A9 /* CommandLineParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		0D8B46E91DAF954500DD16A9 /* base62 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = base62; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D8B46EC1DAF954500DD16A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D8B46F31DAF956E00DD16A9 /* NSString+Base62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base62.h"; sourceTree = "<group>"; };
+		0D8B46F41DAF956E00DD16A9 /* NSString+Base62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base62.m"; sourceTree = "<group>"; };
+		0D8B46F61DAF98A000DD16A9 /* CommandLineParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandLineParser.h; sourceTree = "<group>"; };
+		0D8B46F71DAF98A000DD16A9 /* CommandLineParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandLineParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		0D8B46EB1DAF954500DD16A9 /* base62 */ = {
 			isa = PBXGroup;
 			children = (
+				0D8B46F31DAF956E00DD16A9 /* NSString+Base62.h */,
+				0D8B46F41DAF956E00DD16A9 /* NSString+Base62.m */,
 				0D8B46EC1DAF954500DD16A9 /* main.m */,
+				0D8B46F61DAF98A000DD16A9 /* CommandLineParser.h */,
+				0D8B46F71DAF98A000DD16A9 /* CommandLineParser.m */,
 			);
 			path = base62;
 			sourceTree = "<group>";
@@ -120,7 +130,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D8B46F51DAF956E00DD16A9 /* NSString+Base62.m in Sources */,
 				0D8B46ED1DAF954500DD16A9 /* main.m in Sources */,
+				0D8B46F81DAF98A000DD16A9 /* CommandLineParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
