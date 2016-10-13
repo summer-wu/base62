@@ -1,6 +1,12 @@
 # base62
 objective-c base62 cli command
 
+#How to build
+download and open with xcode
+
+#How to install
+copy the prebuild_binary/base62 to /usr/local/bin
+
 #Command Help
 ```
 Help:
